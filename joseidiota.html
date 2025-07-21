@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://kit.fontawesome.com/0ec7d0aa98.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://services.meteored.com/img/article/apocalipsis-cuantos-sobrevivientes-podrian-preservar-la-especie-armagedon-fin-del-mundo-333331-1_1280.jpg" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reunion Apocaliptica</title>
+    <style>
+ *{ 
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        html, body{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            scroll-behavior: smooth;
+           background-color: #670E36;
+           user-select: none;
+        }
+        *::selection{
+            background-color: #A50044;
+            
+        }
+  
+        .vista{
+            display: none;
+       
+
+        }
+        .activa{
+            display: inherit;
+        }
+        img{
+            border-radius: 20px;
+            width: 100%;
+            height: 18em;
+            object-fit: cover;
+            object-position: center center;
+        }
+        .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+   .vista{
+            display: none;
+        }
+        .activa{
+            display: inherit;
+        }
+        .reversa, .reversa2{
+display: flex;
+flex-wrap: nowrap;
+width: 100%;
+
+        }
+        p{
+            font-size: 1.2em;
+            color: #fff;
+        }
+#home{
+    width: 100%;
+    height: 100%;
+  
+}
+#pg1{
+    width: 100%;
+    height: 100%;
+   
+}
+#pg2{
+    width: 100%;
+    height: 100%;
+   
+}
+/* fin de las propiedades obligatoiras */
+
+#home .header{
+   padding: 10px;
+   height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-image: url(https://github.com/luisSir-Alonne/imagenes/blob/main/bastardos.jpg?raw=true);
+    background-attachment: fixed;
+    background-position:  center center;
+    background-size: cover;
+   
+    background-repeat: no-repeat; 
+   
+}
+#home .header .banner{
+      background-color: rgba(0, 0, 0 , 0.6 );
+    padding: 20px;
+    border-radius: 20px;
+    color: #F9D857;
+    font-size: 1.5em;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+.Title{
+    color: #F9D857;
+    font-size: 1.5em;
+text-transform: uppercase;
+    border-radius: 20px;
+    position: absolute;
+    padding: 10px 50px;
+margin-left: 5px;
+    transition: all 0.5s;
+
+}
+.Title:hover{
+    background-color: #95BFE5;
+}
+#home .header .banner p{
+    margin: 0 0 10px;
+    font-size: 1em;
+    color: #fff;
+}
+#home .nav{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  text-decoration: none;
+  background-color: #670E36;
+  border-bottom : 4px solid #95BFE5  ;
+}
+
+#home .nav  a{
+      color: #F9D857 	;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Bell MT;
+    z-index: 10;
+    transition: all 1s;
+    font-size: 1.6em;
+}
+#home .nav  a:hover{
+    background-color: #95BFE5 ;
+}
+.contenedor, .contenedor2, .contenedor3{
+    display: none; 
+ width: 100%;
+ height: 100%;
+ 
+    
+}
+.contenedor a, .contenedor2 a, .contenedor3 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+   
+}
+.contenedor2 li, .contenedor3 li{
+    list-style: none;
+}
+#check, #check2, #check3{
+    display: none;
+}
+.checkbtn, .checkbtn2, .checkbtn3{
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    
+
+}
+#home .row .reversa .aside{
+    flex: 30%;
+    padding: 20px;
+    color: #222222;
+  background-color: #670E36;
+        border-right: 4px solid #95BFE5  ;
+
+}
+#home .row .reversa .aside .aside_article{
+      width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+#home .row .reversa .aside h3{
+    text-transform: uppercase;
+    color: #F9D857;
+}
+#contador{
+    font-size: 1.5em;
+    color: #FFF;
+}
+#home .row .reversa .main{
+     flex: 70%;
+    padding: 10px;
+  background-color: #670E36	;
+    color: #222222;
+   font-size: 1.5em;
+}
+
+.titulo{
+         text-transform: uppercase;
+
+color: #F9D857;
+}
+.subtitulo{
+    color: #F5F5F5;
+}
+
+#home .row .reversa .main .article{
+     width: 100%;
+    border-radius: 20px;
+}
+.resaltar{
+    color: #F9D857;
+}
+
+footer{
+       width: 100%;
+       /* CE1126 */
+background-color: #670E36	 ;
+border-top: 4px solid #95BFE5	 ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff !important;
+    height: 100%;
+    display: flex;
+}
+
+#pg1 .header, #pg2 .header {
+
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: start;
+        align-items: center;
+  
+        
+}
+
+#pg1 .header .nav, #pg2 .header .nav{
+background-color: #670E36 ;
+padding: 10px;
+display: flex;
+flex-direction: row-reverse;
+width: 100%;
+padding: 0;
+border-bottom: 4px solid #95BFE5;
+
+
+}
+#pg1 .header .nav .navbar, #pg2 .header .nav .navbar{
+float: right;
+    margin-left: 30px;
+
+    
+} 
+#pg1 .header .nav .navbar li, #pg2 .header .nav .navbar li{
+       display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+
+}
+#pg1 .header .nav .navbar li a, #pg2 .header .nav .navbar li a{
+      color: #F9D857 ;
+    font-family: Bell Mt;
+    padding: 2px 13px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2em;
+}
+li .active,#pg1 .header .nav .navbar li a:hover, #pg2 .header .nav .navbar li a:hover{
+    background-color: #95BFE5 ;
+} 
+#pg1 .header .nav .navbar  a, #pg2 .header .nav .navbar  a{
+        display: inline-block;
+    line-height: 50px;
+     color: #F9D857 ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    margin: 0 5px;
+    
+}
+#pg1 .header .nav .navbar a:hover, #pg2 .header .nav .navbar a:hover{
+    color: #F9D857;
+}
+#pg1 .row .reversa2 .banner, #pg2 .row .reversa2 .banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+ border-bottom: 4px solid #95BFE5;
+ 
+
+    
+}
+#pg1 .row .reversa2 .main, #pg2 .row .reversa2 .main{
+    display: flex;
+    flex: 70%;
+flex-direction: column;
+padding: 5px;
+background-color: #670E36 ;
+
+}
+#pg1 .row .reversa2 .aside, #pg2 .row .reversa2 .aside{
+ display: flex;
+ flex: 30%;   
+ flex-direction: column;
+ padding: 5px;
+ background-color: #670E36 ; 
+
+ border-left: 4px solid #95BFE5; 
+}
+#pg1 .row .reversa2 .aside .aside_article, #pg2 .row .reversa2 .aside .aside_article{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#pg1 .row .reversa2 .main .article, #pg2 .row .reversa2 .main .article{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ text-align: justify;
+background-color: #670E36 ;
+font-size: 1.3em;
+border-radius: 20px;
+
+}
+#pg1 .row .reversa2 .aside .aside_article, #pg2 .row .reversa2 .aside .aside_article{
+       border-radius: 20px;
+    background-color: #670E36 ;
+    margin: 10px;
+    padding: 20px;
+    text-align: center ;
+font-size: 1.3em;
+}
+.res{
+    background-color: #670E36 ;
+    width: 100%;
+  display: none;
+    padding: 5px;
+
+}
+ .dir{
+    color: #95BFE5;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.5em;
+   
+ }
+
+ form{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 20px;
+    background-color:#670E36;
+    width: 50%;
+    border-radius: 20px;
+ }  
+ form label{
+    color: #F9D857;
+    margin: 15px;
+    font-size: 1.2em;
+ }
+ form input{
+    padding: 5px;
+    margin: 15px;
+    width: 80%;
+    background-color: #670E36;
+    border: none;
+    border-bottom: 2px solid #95BFE5;
+    outline: none;
+    color: #95BFE5;
+    font-size: 1em;
+ }
+ form textarea{
+    background-color: #670E36;
+    border: 2px solid #95BFE5;
+    height: 9em;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+    resize: none;
+    color: #95BFE5;
+    font-size: 1em;
+ }
+ form button{
+    background-color: #95BFE5;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #670E36;
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    outline: 2px solid #F9D857;
+}
+
+/* También puedes modificar su estilo (limitado) */
+
+
+/*Responsive*/
+@media screen and (max-width: 1000px){
+ 
+
+#home .header{
+
+  background-image: url(https://github.com/luisSir-Alonne/imagenes/blob/main/bastardo%203.jpg?raw=true);
+   
+}
+
+ /**
+ *TODO esto es para lo del form
+ */
+ form{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background-color:#670E36;
+    width: 80%;
+    border-radius: 20px;
+ }  
+ form label{
+    color: #F9D857;
+    margin: 15px;
+    font-size: 1.2em;
+ }
+ form input{
+    padding: 5px;
+    margin: 15px;
+    width: 80%;
+    background-color: #670E36;
+    border: none;
+    border-bottom: 2px solid #F9D857;
+    outline: none;
+    color: #95BFE5;
+    font-size: 1em;
+ }
+ form textarea{
+    background-color: #670E36;
+    border: 2px solid #95BFE5;
+    height: 9em;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+    resize: none;
+    color: #95BFE5;
+    font-size: 1em;
+ }
+ form button{
+    background-color: #670E36;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #670E36;
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    outline: 2px solid #95BFE5;
+}
+
+/**
+* ! Fin del form
+*/
+ 
+    #home .header{
+        padding: 1em;
+         justify-content: center;
+        align-items: center; 
+        background-position: center;
+        height: 90vh;
+        background-position-y: -850px;
+        
+    }
+    #home .header .banner{
+        padding: 0.5em;
+        width: 80%; 
+        justify-content: center;
+        
+
+    }
+    #pg1 .row .reversa2 .main .article, #pg2 .row .reversa2 .main .article{
+    margin: 10px;
+    padding: 20px;
+ text-align: justify;
+width: 90%;
+border-radius: 20px;
+font-size: 1.8em;
+}
+.reversa{
+    flex-direction: column-reverse;
+}    
+.reversa2{
+    flex-direction: column;
+}
+#home .nav{
+    font-size: 1.5em;
+    margin: 0;
+    justify-content: space-around;
+}
+ #pg1 .row .reversa2  .aside, #pg2 .row .reversa2 .aside{   
+ text-align: justify;
+
+ border: none;
+font-size: 1.6em;
+    }
+       #home .row .reversa .aside{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: none;
+        font-size: 1.6em;
+    }
+       .texto {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.texto.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.titulo{
+    text-align: center;
+}
+.subtitulo{
+    text-align: center;
+}
+.resaltar{
+    margin-top: 3em;
+    text-align: center;
+}
+ #home .row .reversa .main{
+     justify-content: center;
+     align-items: center;
+     flex: 100%;
+     text-align: center;
+     font-size: 1.6em;
+     padding: 5px;
+}
+footer{
+    font-size: 1.5em;
+}
+#pg1 .row .reversa2 .main, #pg2 .row .reversa2 .main{
+    justify-content: center;
+    align-items: center;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+#pg1 .row .reversa2 .main .article, #pg2 .row .reversa2 .main .article{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+ #pg1 .row .reversa2  .aside .aside_article, #p2 .row .reversa2 .aside .aside_article{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     img{
+        height: 20em;
+        width: 90%;
+    }
+    .activo{
+    background: #95BFE5 ;
+}
+ .activo,.contenedor a:focus, .contenedor2 li a:focus, .contenedor3 li a:focus{
+background-color: #95BFE5;
+}
+ .contenedor a:hover, .contenedor2 li a:hover, .contenedor3 li a:hover{
+background-color: transparent;
+}
+.Title{
+    font-size: 2em;
+        padding: 5px 30px;
+    margin: 5px;
+}
+.Title:hover{
+    background-color: transparent;
+}
+#pg1 .header .nav .navbar li a, #pg2 .header .nav .navbar li a{
+    font-size: 1.5em;
+}
+#pg1 .header .nav .navbar li a:hover, #pg2 .header .nav .navbar li a:hover{
+    background-color: transparent;
+}
+
+}
+.slide{
+        height: 100%;
+        width: 180px;
+        position: absolute;
+        
+        transition: all 0.5s ease;
+        transform: translateX(-180px);
+        z-index: 900;
+    }
+    .title_responsive{
+        
+        font-weight: 800;
+        text-align: right;
+        padding: 10px 0;
+        padding-right: 30px;
+        pointer-events: none;
+    }
+    .link_container{
+        list-style: none;
+
+    }
+    .link_responsive{
+        
+        font-weight: 500;
+        padding: 5px 0;
+        display: block;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: all 0.2 ease-out;
+    } 
+.icon_responsive{
+width: 40px;
+text-align: center;
+
+    }
+    .responsive_nav{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    #check4{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .toggle{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-color: #1c1c1c;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000; 
+        cursor: pointer ;
+        border-radius: 2px;
+        top: 20px;
+        left: 15px;
+        
+    }
+    .toggle .common{
+        position: absolute;
+        height: 2px;
+        width: 20px;
+        background-color: #8b0000;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+
+    }
+    .toggle .top_line{
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50% );
+    }.toggle .mid_line{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50% );
+    }.toggle .bottom_line{
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50% );
+    }
+    #check4:checked ~ .toggle .top_line{
+        left: 2px;
+        top: 14px;
+        width: 25px;
+        transform: rotate(45deg);
+    }#check4:checked ~ .toggle .mid_line{
+        opacity: 0;
+        transform: translateX(20px);
+    }#check4:checked ~ .toggle .bottom_line{
+        left: 2px;
+        top: 14px;
+        width: 25px;
+        transform: rotate(-45deg);
+    }
+    #check4:checked ~ .slide{
+        transform: translateX(0);
+    }
+    .link_responsive{
+        color: #fff;
+        background: #1c1c1c;
+    }
+
+.label_responsive{
+        display: none;
+    }
+
+
+@media screen and (max-width: 800px){
+#home .header{
+
+  background-image: url(https://github.com/luisSir-Alonne/imagenes/blob/main/bastardo%203.jpg?raw=true);
+  
+}
+/**
+* ! Esto es lo del form
+*/
+
+.label_responsive{
+    display: block;
+    
+
+}
+.slide{
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        background-color: #670E36;
+        transition: all 0.5s ease;
+        transform: translateX(-200px);
+        z-index: 900;
+        padding: 0;
+        margin: 0;
+        font-size: 1.4em;
+        display: flex;
+        flex-direction: column;
+        padding:0;
+    
+    }
+    .title_responsive{
+        color: #F9D857;
+        text-align: right;
+        font-size: 1.5em;
+        pointer-events: none;
+        padding: 0;
+        margin: 15px;
+    }
+    .link_container{
+        list-style: none;
+        font-size: 1.4em;
+        width: 100%;
+    }
+    .link_responsive{
+        text-align: right;
+        padding: 7px;
+        background-color: #95BFE5;
+    
+    width: 100%;
+        margin-top: 30px;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: all 0.2 ease-out;
+    } 
+
+    #check4{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .toggle{
+        position: fixed;
+        height: 30px;
+        width: 30px;
+        background-color: #670E36;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 1000; 
+        cursor: pointer ;
+        border-radius: 2px;
+        top: 20px;
+        left: 15px;
+         
+    
+        
+    }
+    .toggle .common{
+        position: absolute;
+        height: 2px;
+        width: 20px;
+        background-color: #95BFE5;
+        border-radius: 50px;
+        transition: all 0.3s ease;
+
+    }
+    .toggle .top_line{
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50% );
+    }.toggle .mid_line{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50% );
+    }.toggle .bottom_line{
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50% );
+    }
+    #check4:checked ~ .toggle .top_line{
+        left: 2px;
+        top: 14px;
+        width: 25px;
+        transform: rotate(45deg);
+    }#check4:checked ~ .toggle .mid_line{
+        opacity: 0;
+        transform: translateX(20px);
+    }#check4:checked ~ .toggle .bottom_line{
+        left: 2px;
+        top: 14px;
+        width: 25px;
+        transform: rotate(-45deg);
+    }
+    #check4:checked ~ .slide{
+        transform: translateX(0);
+    }
+    .link_responsive{
+        color: #670E36;
+        background: #95BFE5;
+    
+        border-radius: 20px;
+    }
+    
+
+ form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    background-color:#670E36;
+    width: 80%;
+    border-radius: 20px;
+ }  
+ form label{
+    color: #F9D857;
+    margin: 15px;
+    font-size: 1.9em;
+ }
+ form input{
+    padding: 5px;
+    margin: 15px;
+    width: 80%;
+    background-color: #670E36;
+    border: none;
+    border-bottom: 2px solid #F9D857;
+    outline: none;
+    color: #95BFE5;
+    font-size: 1.9em;
+ }
+ form textarea{
+    background-color: #670E36;
+    border: 2px solid #95BFE5;
+    height: 9em;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+    resize: none;
+    color: #95BFE5;
+    font-size: 1.9em;
+ }
+ form button{
+    background-color: #95BFE5;
+    border: none;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #F9D857;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    outline: 2px solid #670E36;
+}
+
+
+/**
+* ! Fin de las propiedades del form
+*/
+    .Title:hover{
+    background-color: transparent;
+}
+  .activo{
+    background: #95BFE5 ;
+}
+ .activo,.contenedor a:focus, .contenedor2 li a:focus, .contenedor3 li a:focus{
+background-color: #95BFE5 
+;
+}
+ .contenedor a:hover, .contenedor2 li a:hover, .contenedor3 li a:hover{
+background-color: transparent;
+}
+    img{
+        height: 32em;
+        width: 90%;
+    }
+    #pg1 .row .reversa2  .aside .aside_article, #p2 .row .reversa2 .aside .aside_article{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_banner{
+        font-size: 1.6em;
+    }
+    #home .header .banner p{
+    margin: 0 0 10px;
+    font-size: 1.3em;
+    color: #fff;
+}
+#pg1 .header .nav, #pg2 .header .nav{
+    flex-direction: row;
+border: none;
+}
+   *{
+    font-size: 0.9em;
+   }
+   
+    .texto {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.texto.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+   /*Para display en celular se quita el aside */
+   .reversa{
+    flex-direction: column-reverse;
+   }
+   .reversa2{
+    flex-direction: column;
+   }
+    #pg1 .row .reversa2  .aside, #pg2 .row .reversa2 .aside{   
+ margin-top: 0;
+ border: none;
+ font-size: 1.2em;
+padding-top: 0;
+    }
+    #home .row .reversa .aside{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: none;
+    }
+
+    /*propiedades adicionales*/
+    #home .header{
+        padding: 1em;
+         justify-content: center;
+        align-items: center; 
+        background-position: center;
+        background-position-y: -290px;
+        height: 90vh;/*original 45 vh*/
+        
+    }
+    #home .header .banner{
+        padding: 0.5em;
+        width: 95%; 
+        justify-content: center;
+        
+
+    }
+    #home .row .reversa .main{
+     justify-content: center;
+     align-items: center;
+     flex: 100%;
+     padding: 5px;
+}
+.titulo{
+    text-align: center;
+    font-size: 1.5em;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 1.2em;
+}
+.resaltar{
+    margin-top: 3em;
+    text-align: center;
+    font-size: 1.6em;
+
+}
+#home .row .reversa .main .article {
+   
+    text-align:justify;
+    font-size: 1.2em;
+    padding: 0px 10px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+/*parte del menu responsive*/
+.nav a{
+    display: none;
+    margin: 0;
+}
+/* 
+.checkbtn, .checkbtn3{
+    display:flex;
+color: #fff;
+font-size: 4em;
+
+}
+.checkbtn2, .checkbtn3{
+    font-size: 6em;
+    display: flex;
+    color: #fff;
+}
+.res, .res2,.res3 {
+      display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+
+    
+}
+#check:checked ~ .checkbtn {
+    
+color: #A50044;
+
+}
+#check2:checked~.checkbtn2{
+    color: #A50044;
+}
+#check3:checked ~ .checkbtn3{
+    color: #A50044;
+}
+.contenedor, .contenedor2, .contenedor3{
+    flex-direction: column;
+    position:fixed;
+    width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: #4a192c ;
+    top:1vh;
+   align-items: center;
+   justify-content: space-around;
+    display: flex; 
+    color: #fff;
+    transition: all 0.5s; 
+    left: -100%;
+    z-index: 100;
+    font-size: 2em;
+  
+}
+
+.contenedor2, .contenedor3{
+    top: 7.1vh;
+    height: 90vh;
+    
+}
+.contenedor2 li, .contenedor3 li{
+    margin-top: 10px;
+      padding: 10px 40px;
+} */
+.navbar{
+display: none;
+}
+#pg1 .header, #pg2 .header{
+    justify-content: flex-end;
+    height: 12vh;
+    border: none;
+    background-color: #670E36;
+    border-bottom: 2px solid #95BFE5;
+}
+#pg1 .header .nav .res #check2:checked ~ #pg1 .header .nav .checkbtn2{
+    color: #A50044
+}
+.Title{
+    padding: 5px 30px;
+    margin: 5px;
+    font-size:2em;
+}
+#pg1 .header, #pg2 .header{
+    align-items: center;
+}
+#mostrar.visible{
+    left: 0;
+}
+#mostrar2.visible2{
+    left: 0;
+}
+#mostrar3.visible3{
+    left: 0;
+}
+
+
+.contenedor a, .contenedor2 li a, .contenedor3 li a{
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-items: center;
+}
+/*fin del menu responsive*/
+#pg1 .row .reversa2 .main, #pg2 .row .reversa2 .main{
+    justify-content: center;
+    align-items: center;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+#pg1 .row .reversa2 .main .article, #pg2 .row .reversa2 .main .article{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#pg1 .row .reversa2 .main .article p, #pg2 .row .reversa2 .main .article p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+#pg1 .row .reversa2 .main .article li, #pg2 .row .reversa2 .main .article li{
+    text-align: justify;
+    font-size: 1.2em;
+    align-items: start;
+    list-style: none;
+    margin-top: 1em;
+}
+.contenedor a:hover, .contenedor2 a:hover, .contenedor3 a:hover{
+    background-color: none;
+
+}
+.activo{
+    background: #670E36 ;
+}
+ .activo,.contenedor a:focus, .contenedor2 li a:focus, .contenedor3 li a:focus{
+background-color: #95BFE5;
+}
+ .contenedor a:hover, .contenedor2 li a:hover, .contenedor3 li a:hover{
+background-color: transparent;
+}
+}
+    
+    </style>
+</head>
+<body>
+    <label for="check4" class="label_responsive ">
+        <input type="checkbox" id="check4">
+        <div class="toggle">
+            <span class="top_line common" ></span>
+            <span class="mid_line common" ></span>
+            <span class="bottom_line common" ></span>
+        </div>
+        <div class="slide">
+            <h1 class="title_responsive">MENU</h1>
+            <ul class="responsive_nav">
+                <li class="link_container"><a href="#" onclick="mostrarVista('home')" class="link_responsive">Inicio 🏡</a></li>
+                <li class="link_container"><a href="#" onclick="mostrarVista('pg1')" class="link_responsive">¿Que pollas es? 🥵</a></li>
+                <li class="link_container"><a href="#" onclick="mostrarVista('pg2')" class="link_responsive">Confirmo 😎</a></li>
+                </ul>
+        </div>
+    </label>
+    <div id="home" class="vista activa">
+        <header class="header">
+             <section class="banner">
+                <!-- <img src="" alt=""> logo de imagen -->
+                <h1 class="title_banner">Reunion Apocaliptica</h1>
+                <p>Los Intensos</p>
+            </section>  
+        </header>
+           <nav class="nav" id="nav1">
+      
+                    <a href="#" onclick="mostrarVista('home')">Inicio 🏡</a>
+                    <a href="#" onclick="mostrarVista('pg1')">¿Que pollas es? 🥵</a>
+                    <a href="#" onclick="mostrarVista('pg2')">Confirmo 😎</a>
+            </nav>
+             
+        <div class="row">
+           
+ <!-- si se ocupa entonces hacer un div reversa para el responsive -->
+<div class="reversa">
+     <aside class="aside">
+        <section class="aside_article">
+            <h2 class="titulo texto oculto">Lugar:</h2>
+            <p class="texto oculto" ><b>El Parque Heroes</b></p>
+            <h2 class="titulo texto oculto">Día:</h2>
+            <p class="texto oculto"><b>Viernes</b></p>
+           <a target="_blank" href="https://maps.app.goo.gl/mCer351QwM7J3VnQ6" class="dir">Ver direccion</a>
+        </section>
+            <section class="aside_article">
+                
+<h3 class="texto oculto">Faltan:</h3>
+<div class="texto oculto" id="contador">Cargando...</div>
+            </section>
+        </aside>
+                <main class="main">
+             
+                    <section class="article">
+                        <h2 class="titulo texto oculto">Reunion Apocaliptica</h2>
+                        <h4 class="subtitulo texto oculto">Ven y demuestra tu humildad tomando caldo de frijoles con nosotros</h4>
+                   
+                         <p class="texto oculto">Hola humilde pederasta ludopata, un saludo desde mi casa de carton, por medio de la presente le doy a usted la oportunidad de mover su humilde y asqueroso trasero hacia un lugar mas que de dudosa confianza, claro, si no estuvieras con tus amigos, con esta invitacion le damos la oportunidad de dejar en paz a su silla o cama de las dudosas sustancias que ha recibido, un abrazo. </p>
+                         
+                         <h2 class="texto oculto resaltar" > <b>Si no vienes pues vete alv ☻</b></h2>
+                    </section>
+                </main>
+        </div>
+        <footer class="footer texto oculto">
+            <p class="footer_text">Tito-Luisito</p>
+        </footer>
+        </div>
+    </div>  
+<div class="vista" id="pg1">
+ <header class="header">
+    <h2 class="Title">¿Que pollas es? 🥵</h2>
+            <nav class="nav">
+                <ul class="navbar">
+                   <li> <a href="#" onclick="mostrarVista('home')">Inicio 🏡</a></li>
+                   <li>   <a href="#" onclick="mostrarVista('pg1')">¿Que pollas es? 🥵</a></li>
+                   <li> <a href="#" onclick="mostrarVista('pg2')">Confirmo 😎</a></li>
+                </ul>
+            </nav>
+        </header>
+             
+        <div class="row">
+ <div class="reversa2">
+                <main class="main">
+                    <section class="article">
+                          <h2 class="titulo texto oculto">La Reunion Apocaliptica</h2>
+                          <h4 class="subtitulo texto oculto">¿Que putas vamos a hacer?</h4>
+
+<p class="Atext texto oculto">El objetivo con el que se penso realizar esta reunion apocaliptica es evitar que nosotros como potencias mundiales nos declaremos en bancarrota debido a nuestros bajos ingresos y moderados gastos, por lo que hacemos esto con la finalidad de lograr una recuperacion en nuestras cuentas bancarias e inversiones en el mercado, como siempre vendra el baboso de jose, que intentara pararlas todas en un intento de lograr un buen juego amistoso con todos los presentes, no te lo pierdas, estare yo de DT, neta se los juro, pero en fin, con esta reunion pensamos pasar un buen rato de placer y diversion sin necesidad de invertir demasiado, aunque pueden surgir de repente encuentros un tanto malevolos, ya que estar en la naturaleza asegura que despertemos nuestros mas profundos rasgos primitivos, y quien sabe que podria pasar, confirma tu presencia en este emocionante viaje registrandote como invitado.</p>
+<h4 class="resaltar">Ven bastardo</h4>
+                    </section>
+                </main>
+        <aside class="aside">
+            <section class="aside_article">
+                <h2 class="titulo texto oculto">No se junten con Chuy</h2>
+<img  class="texto oculto" src="https://github.com/luisSir-Alonne/imagenes/blob/main/bastardo%204.jpg?raw=true" alt="">
+           </section>
+        </aside>
+        </div>
+        <footer class="footer texto oculto">
+            <p class="footer_text">Tito-Luisito</p>
+        </footer>
+        </div>
+</div>
+<div class="vista" id="pg2">
+ <header class="header">
+     <h2 class="Title">Confirmo 😎</h2>
+            <nav class="nav">
+                <ul class="navbar">
+                   <li> <a href="#" onclick="mostrarVista('home')">Inicio 🏡</a></li>
+                   <li>   <a href="#" onclick="mostrarVista('pg1')">¿Que pollas es? 🥵</a></li>
+                   <li> <a href="#" onclick="mostrarVista('pg2')">Confirmo 😎</a></li>         
+                </ul>
+            </nav>
+        </header>
+        <div class="row">
+ <div class="reversa2">
+                <main class="main">
+                    <section class="article">
+                        <form id="rsvpForm">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+
+  <label for="personas">Número de personas:</label>
+  <input type="number" id="personas" name="personas" min="1" required>
+
+  <label for="mensaje">Mensaje opcional:</label>
+  <textarea id="mensaje" name="mensaje"></textarea>
+
+  <button type="submit">Confirmar asistencia</button>
+</form>
+<p id="mensajeRespuesta"></p>
+</section>
+</main>
+        <aside class="aside">
+            <section class="aside_article">
+                <h2 class="titulo">¿Que pasa si no vengo?</h2>
+          <p class="Atext">Nada, nadie le da importancia</p>
+            </section>
+        </aside>
+        </div>
+        <footer class="footer texto oculto">
+            <p class="footer_text">Tito-Luisito</p>
+        </footer>
+        </div>
+</div>
+<!-- fin de la tercera seccion -->
+ <script>
+
+       function mostrarVista(id){
+        document.querySelectorAll('.vista').forEach(v => v.classList.remove('activa'));
+        document.getElementById(id).classList.add('activa')
+    }
+ </script>
+ <script>
+    const fehcaObjetivo = new Date("July 25, 2025 13:00:00").getTime();
+    const intervalo = setInterval(() =>{
+        const ahora = new Date().getTime();
+        const diferencia = fehcaObjetivo - ahora;
+        if(diferencia <= 0 ){
+            clearInterval(intervalo);
+            document.getElementById("contador").innerHTML = "Hoy";
+            return;
+
+        }
+        const dias = Math.floor(diferencia / (1000 * 60 * 60 *24));
+        const horas = Math.floor((diferencia % (1000 * 60 * 60 *24)) / (1000 * 60 * 60));
+        const minutos = Math.floor((diferencia % (1000 * 60 * 60) / (1000 * 60 )))
+        const segundos = Math.floor((diferencia % (1000 * 60))/1000);
+
+        document.getElementById("contador").innerHTML = `${dias} dias ${horas}h ${minutos}m ${segundos}s`;
+
+    }, 1000)
+ </script>
+ <script>
+  const textos = document.querySelectorAll('.texto');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      } else {
+        entry.target.classList.remove('visible'); // Aquí se reinicia
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  textos.forEach(texto => observer.observe(texto));
+</script>
+<script>
+document.getElementById('rsvpForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const nombre = document.getElementById('nombre').value;
+  const personas = document.getElementById('personas').value;
+  const mensaje = document.getElementById('mensaje').value;
+
+  fetch("https://api.sheetbest.com/sheets/94a9740d-fd20-4968-a21b-66716a6c4a0f", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      Nombre: nombre,
+      Personas: personas,
+      Mensaje: mensaje
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById("mensajeRespuesta").textContent = "✅ ¡Gracias por confirmar!";
+    document.getElementById("rsvpForm").reset();
+  })
+  .catch(err => {
+    document.getElementById("mensajeRespuesta").textContent = "❌ Ocurrió un error.";
+  });
+});
+</script>
+
+</body>
+</html>
